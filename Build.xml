@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<project default="all" name="test project">
+
+
+<target name="all" depends="init">
+
+<echo> welcome to ant script... </echo>
+
+</target>
+
+
+<target name="init" depends="clean">
+
+<echo> initialization</echo>
+
+</target>
+
+
+<target name="clean">
+
+<echo message="cleaning"/>
+
+</target>
+
+</project>
