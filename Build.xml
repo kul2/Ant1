@@ -6,6 +6,7 @@
 <target name="all" depends="init">
 
 <echo> welcome to ant script... </echo>
+<echo> Hello ... </echo>
 
 </target>
 
